@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(45deg,rgb(154, 236, 241),rgb(230, 156, 248),rgb(245, 129, 226));
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+#img{
+    margin-left: 520px;
+
+}
+img{
+    border-radius: 50%;
+}
+h1{
+    
+    text-align: center;
+    color: rgb(33, 138, 224);
+    font-size: 50px;
+}
+#count{
+    
+    font-size: 100px;
+    text-align: center;
+}
+.btn{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#like{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+#dislike{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#like:hover{
+    cursor: pointer;
+    background-color:rgb(172, 41, 128);
+    color:rgb(240, 148, 240);
+}
+#dislike:hover{
+    cursor: pointer;
+    background-color:rgb(172, 44, 150);
+    color:rgb(233, 141, 245);
+}
